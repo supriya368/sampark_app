@@ -1,0 +1,838 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.mesibo.messenger"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:8:5-76
+13-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:10:5-81
+15-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:9:5-81
+17-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:13:5-80
+18-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:13:22-77
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:14:5-65
+19-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:14:22-62
+20    <uses-permission
+20-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:15:5-72
+21        android:name="android.permission.READ_CONTACTS"
+21-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:15:22-69
+22        android:required="false" />
+22-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:25:9-33
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:16:5-81
+23-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:16:22-78
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:17:5-68
+24-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:17:22-65
+25    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+25-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:18:5-81
+25-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:18:22-78
+26    <uses-permission
+26-->[com.mesibo.api:uihelper:2.0.3] C:\Users\Dell\.gradle\caches\transforms-3\9f3f7eb1802209803a228abaeca9699f\transformed\jetified-uihelper-2.0.3\AndroidManifest.xml:13:5-15:36
+27        android:name="android.permission.READ_PHONE_STATE"
+27-->[com.mesibo.api:uihelper:2.0.3] C:\Users\Dell\.gradle\caches\transforms-3\9f3f7eb1802209803a228abaeca9699f\transformed\jetified-uihelper-2.0.3\AndroidManifest.xml:14:9-59
+28        android:required="false" />
+28-->[com.mesibo.api:uihelper:2.0.3] C:\Users\Dell\.gradle\caches\transforms-3\9f3f7eb1802209803a228abaeca9699f\transformed\jetified-uihelper-2.0.3\AndroidManifest.xml:15:9-33
+29    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+29-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:9:5-76
+29-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:9:22-73
+30    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+30-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:10:5-75
+30-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:10:22-72
+31    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+31-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:11:5-75
+31-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:11:22-72
+32    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+32-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:15:5-71
+32-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:15:22-68
+33    <uses-permission android:name="android.permission.STORAGE" />
+33-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:10:5-66
+33-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:10:22-63
+34    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+34-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:9:5-78
+34-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:9:22-75
+35    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+35-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:10:5-91
+35-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:10:22-88
+36
+37    <uses-feature
+37-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:12:5-14:36
+38        android:name="android.hardware.telephony"
+38-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:13:9-50
+39        android:required="false" />
+39-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:14:9-33
+40    <uses-feature
+40-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:15:5-17:36
+41        android:name="android.hardware.bluetooth"
+41-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:16:9-50
+42        android:required="false" />
+42-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:17:9-33
+43
+44    <uses-permission android:name="android.permission.BLUETOOTH" />
+44-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:19:5-68
+44-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:19:22-65
+45    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+45-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:20:5-74
+45-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:20:22-71
+46    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+46-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:21:5-76
+46-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:21:22-73
+47    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+47-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:23:5-75
+47-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:23:22-72
+48    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+48-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:24:5-80
+48-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:24:22-77
+49    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+49-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:26:5-74
+49-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:26:22-71
+50    <uses-permission android:name="android.permission.VIBRATE" /> <!-- some device having issues with this hence we keeping it options -->
+50-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:27:5-66
+50-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:27:22-63
+51    <!--
+52    play store asks for video and explanation if this permission is declared.
+53    We are using this only for legacy notification or androidtv in function playIncomingNotification
+54    so it can be declared in app
+55    -->
+56    <!-- <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" /> -->
+57    <!--
+58    user need to enable this for screen sharing, since many of our users do not use screen sharing,
+59    we are disabling by default
+60    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+61    -->
+62    <uses-feature
+62-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:46:5-48:36
+63        android:name="android.hardware.camera"
+63-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:47:9-47
+64        android:required="false" />
+64-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:48:9-33
+65    <uses-feature
+65-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:49:5-51:36
+66        android:name="android.hardware.camera.autofocus"
+66-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:50:9-57
+67        android:required="false" />
+67-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:51:9-33
+68    <uses-feature
+68-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:52:5-54:35
+69        android:glEsVersion="0x00020000"
+69-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:53:9-41
+70        android:required="true" />
+70-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:54:9-32
+71
+72    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+72-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:58:5-77
+72-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:58:22-74
+73    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+73-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:59:5-85
+73-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:59:22-82
+74    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+74-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:20:5-78
+74-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:20:22-75
+75    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+75-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:5-82
+75-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:22-79
+76    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+76-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:5-110
+76-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:22-107
+77
+78    <application
+78-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:21:5-102:19
+79        android:name="org.mesibo.messenger.MainApplication"
+79-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:22:9-40
+80        android:allowBackup="false"
+80-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:23:9-36
+81        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+81-->[androidx.core:core:1.2.0] C:\Users\Dell\.gradle\caches\transforms-3\a700b5fa19b4685996e12b87a119e551\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+82        android:debuggable="true"
+83        android:icon="@drawable/smartphone"
+83-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:24:9-44
+84        android:label="Mesibo Messenger"
+84-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:25:9-41
+85        android:requestLegacyExternalStorage="true"
+85-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:28:9-52
+86        android:supportsRtl="true"
+86-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:26:9-35
+87        android:testOnly="true"
+87-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:27:9-33
+88        android:theme="@style/AppTheme" >
+88-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:29:9-40
+89        <meta-data
+89-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:32:9-34:46
+90            android:name="com.google.android.geo.API_KEY"
+90-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:33:13-58
+91            android:value="GOOGLE_MAP_KEY" />
+91-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:34:13-43
+92
+93        <activity
+93-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:37:9-40:55
+94            android:name="org.mesibo.messenger.EditProfileActivity"
+94-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:38:13-48
+95            android:theme="@style/EditProfileTheme"
+95-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:39:13-52
+96            android:windowSoftInputMode="adjustPan" />
+96-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:40:13-52
+97        <activity
+97-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:42:9-56:20
+98            android:name="org.mesibo.messenger.StartUpActivity"
+98-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:42:19-50
+99            android:exported="true"
+99-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:49:6-29
+100            android:label="@string/app_name"
+100-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:44:13-45
+101            android:launchMode="singleTop"
+101-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:48:13-43
+102            android:noHistory="true"
+102-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:47:13-37
+103            android:screenOrientation="portrait"
+103-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:45:13-49
+104            android:theme="@style/ShowUserProfileTheme"
+104-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:43:13-56
+105            android:windowSoftInputMode="stateAlwaysHidden" >
+105-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:46:13-60
+106            <intent-filter>
+106-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:51:13-55:29
+107                <action android:name="android.intent.action.MAIN" />
+107-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:52:17-69
+107-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:52:25-66
+108
+109                <category android:name="android.intent.category.LAUNCHER" />
+109-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:54:17-77
+109-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:54:27-74
+110            </intent-filter>
+111        </activity>
+112
+113        <meta-data
+113-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:58:9-60:69
+114            android:name="com.google.android.gms.version"
+114-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:59:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:60:13-66
+116
+117        <activity
+117-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:62:9-65:55
+118            android:name="org.mesibo.messenger.AppSettings.SettingsActivity"
+118-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:63:13-57
+119            android:theme="@style/SettingsTheme"
+119-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:64:13-49
+120            android:windowSoftInputMode="adjustPan" />
+120-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:65:13-52
+121
+122        <receiver
+122-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:67:9-74:20
+123            android:name="org.mesibo.messenger.AutoStart"
+123-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:67:19-44
+124            android:exported="true" >
+124-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:68:3-26
+125            <intent-filter>
+125-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:70:13-73:29
+126                <action android:name="android.intent.action.BOOT_COMPLETED" />
+126-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:71:17-86
+126-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:71:25-76
+127                <action android:name="org.mesibo.messenger.restart" />
+127-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:72:17-78
+127-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:72:25-68
+128            </intent-filter>
+129        </receiver>
+130
+131        <!-- Firebase Notifications -->
+132        <service
+132-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:77:9-83:19
+133            android:name="org.mesibo.messenger.fcm.MesiboGcmListenerService"
+133-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:77:18-62
+134            android:exported="false" >
+134-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:78:3-27
+135            <intent-filter>
+135-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:80:13-82:29
+136                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+136-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:81:17-78
+136-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:81:25-75
+137            </intent-filter>
+138        </service>
+139        <service
+139-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:85:9-91:19
+140            android:name="org.mesibo.messenger.fcm.MesiboInstanceIDListenerService"
+140-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:85:18-69
+141            android:exported="false" >
+141-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:86:13-37
+142            <intent-filter>
+142-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:88:13-90:29
+143                <action android:name="com.google.android.gms.iid.InstanceID" />
+143-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:89:17-80
+143-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:89:25-77
+144            </intent-filter>
+145        </service>
+146        <service
+146-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:92:9-95:71
+147            android:name="org.mesibo.messenger.fcm.MesiboRegistrationIntentService"
+147-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:93:13-64
+148            android:exported="false"
+148-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:94:13-37
+149            android:permission="android.permission.BIND_JOB_SERVICE" />
+149-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:95:13-69
+150        <service
+150-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:96:9-99:72
+151            android:name="org.mesibo.messenger.fcm.MesiboJobIntentService"
+151-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:97:13-55
+152            android:exported="false"
+152-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:98:13-37
+153            android:permission="android.permission.BIND_JOB_SERVICE" />
+153-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:99:13-69
+154
+155        <activity
+155-->[com.mesibo.api:uihelper:2.0.3] C:\Users\Dell\.gradle\caches\transforms-3\9f3f7eb1802209803a228abaeca9699f\transformed\jetified-uihelper-2.0.3\AndroidManifest.xml:18:9-20:51
+156            android:name="com.mesibo.uihelper.LoginActivity"
+156-->[com.mesibo.api:uihelper:2.0.3] C:\Users\Dell\.gradle\caches\transforms-3\9f3f7eb1802209803a228abaeca9699f\transformed\jetified-uihelper-2.0.3\AndroidManifest.xml:19:13-61
+157            android:theme="@style/WelcomeTheme" />
+157-->[com.mesibo.api:uihelper:2.0.3] C:\Users\Dell\.gradle\caches\transforms-3\9f3f7eb1802209803a228abaeca9699f\transformed\jetified-uihelper-2.0.3\AndroidManifest.xml:20:13-48
+158        <activity
+158-->[com.mesibo.api:uihelper:2.0.3] C:\Users\Dell\.gradle\caches\transforms-3\9f3f7eb1802209803a228abaeca9699f\transformed\jetified-uihelper-2.0.3\AndroidManifest.xml:21:9-24:51
+159            android:name="com.mesibo.uihelper.ProductTourActivity"
+159-->[com.mesibo.api:uihelper:2.0.3] C:\Users\Dell\.gradle\caches\transforms-3\9f3f7eb1802209803a228abaeca9699f\transformed\jetified-uihelper-2.0.3\AndroidManifest.xml:22:13-67
+160            android:screenOrientation="portrait"
+160-->[com.mesibo.api:uihelper:2.0.3] C:\Users\Dell\.gradle\caches\transforms-3\9f3f7eb1802209803a228abaeca9699f\transformed\jetified-uihelper-2.0.3\AndroidManifest.xml:23:13-49
+161            android:theme="@style/WelcomeTheme" />
+161-->[com.mesibo.api:uihelper:2.0.3] C:\Users\Dell\.gradle\caches\transforms-3\9f3f7eb1802209803a228abaeca9699f\transformed\jetified-uihelper-2.0.3\AndroidManifest.xml:24:13-48
+162        <activity
+162-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:18:9-21:59
+163            android:name="com.mesibo.messaging.MesiboUserListActivity"
+163-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:19:13-71
+164            android:theme="@style/MesiboAppTheme"
+164-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:20:13-50
+165            android:windowSoftInputMode="adjustNothing" />
+165-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:21:13-56
+166        <activity
+166-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:22:9-24:53
+167            android:name="com.mesibo.messaging.MesiboMessagingActivity"
+167-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:23:13-72
+168            android:theme="@style/MesiboAppTheme" />
+168-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:24:13-50
+169        <activity
+169-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:25:9-27:55
+170            android:name="com.mesibo.messaging.CreateNewGroupActivity"
+170-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:26:13-71
+171            android:theme="@style/CreateGroupTheme" />
+171-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:27:13-52
+172        <activity
+172-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:28:9-30:53
+173            android:name="com.mesibo.messaging.MesiboEndToEndEncryptionActivity"
+173-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:29:13-81
+174            android:theme="@style/MesiboAppTheme" />
+174-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:30:13-50
+175        <activity
+175-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:31:9-33:53
+176            android:name="com.mesibo.messaging.MesiboMapActivity"
+176-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:32:13-66
+177            android:theme="@style/MesiboAppTheme" />
+177-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:33:13-50
+178        <activity
+178-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:34:9-36:53
+179            android:name="com.mesibo.messaging.MesiboShowProfileActivity"
+179-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:35:13-74
+180            android:theme="@style/MesiboAppTheme" />
+180-->[com.mesibo.api:ui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\7a713aa2d035487ba31ccd5cf5e956ed\transformed\jetified-ui-2.5.7\AndroidManifest.xml:36:13-50
+181        <activity
+181-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:10:9-15:63
+182            android:name="com.mesibo.calls.ui.CallLogs.CallLogsActivity"
+182-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:11:13-73
+183            android:configChanges="orientation|keyboardHidden"
+183-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:12:13-63
+184            android:screenOrientation="portrait"
+184-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:13:13-49
+185            android:theme="@style/CallLogsActivityTheme"
+185-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:14:13-57
+186            android:windowSoftInputMode="stateAlwaysHidden" />
+186-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:15:13-60
+187        <activity
+187-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:16:9-21:63
+188            android:name="com.mesibo.calls.ui.CallLogs.CallLogsDetailsActivity"
+188-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:17:13-80
+189            android:configChanges="orientation|keyboardHidden"
+189-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:18:13-63
+190            android:screenOrientation="portrait"
+190-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:19:13-49
+191            android:theme="@style/CallLogsDetailsActivityTheme"
+191-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:20:13-64
+192            android:windowSoftInputMode="stateAlwaysHidden" />
+192-->[com.mesibo.api:callui:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\4a2a623573e793d5db83c192d1a29d2f\transformed\jetified-callui-2.5.7\AndroidManifest.xml:21:13-60
+193        <activity
+193-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:19:9-23:59
+194            android:name="com.mesibo.mediapicker.AlbumStartActivity"
+194-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:20:13-69
+195            android:exported="true"
+195-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:21:13-36
+196            android:label="@string/title_activity_facebook_album"
+196-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:22:13-66
+197            android:theme="@style/AppTheme.NoActionBar" />
+197-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:23:13-56
+198        <activity
+198-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:24:9-28:55
+199            android:name="com.mesibo.mediapicker.zoomVuPictureActivity"
+199-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:25:13-72
+200            android:exported="true"
+200-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:26:13-36
+201            android:label="@string/title_activity_zoomPictureVu"
+201-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:27:13-65
+202            android:theme="@style/ImageEditorTheme" />
+202-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:28:13-52
+203        <activity
+203-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:29:9-33:70
+204            android:name="com.mesibo.mediapicker.ImageEditor"
+204-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:30:13-62
+205            android:exported="true"
+205-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:31:13-36
+206            android:theme="@style/ImageEditorTheme"
+206-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:32:13-52
+207            android:windowSoftInputMode="stateHidden|adjustResize" />
+207-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:33:13-67
+208        <!--
+209        if we change authorities here, we need to change in getAuthority() in MediaPicker.java too
+210        Also, we are using same authority in EndToEndEncryptionFragment
+211        -->
+212        <provider
+212-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:39:9-47:20
+213            android:name="com.mesibo.mediapicker.MediaPickerFileProvider"
+213-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:40:13-74
+214            android:authorities="org.mesibo.messenger.com.mesibo.mediapicker"
+214-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:41:13-74
+215            android:exported="false"
+215-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:42:13-37
+216            android:grantUriPermissions="true" >
+216-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:43:13-47
+217            <meta-data
+217-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:44:13-46:58
+218                android:name="android.support.FILE_PROVIDER_PATHS"
+218-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:45:17-67
+219                android:resource="@xml/provider_paths" />
+219-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:46:17-55
+220        </provider>
+221
+222        <service
+222-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:63:9-67:63
+223            android:name="com.mesibo.calls.api.MesiboScreenSharingService"
+223-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:64:13-75
+224            android:enabled="true"
+224-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:65:13-35
+225            android:exported="true"
+225-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:66:13-36
+226            android:foregroundServiceType="mediaProjection" />
+226-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:67:13-60
+227        <service
+227-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:68:9-72:61
+228            android:name="com.mesibo.calls.api.MesiboRingtoneService"
+228-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:69:13-70
+229            android:enabled="true"
+229-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:70:13-35
+230            android:exported="true"
+230-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:71:13-36
+231            android:foregroundServiceType="mediaPlayback" />
+231-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:72:13-58
+232
+233        <receiver
+233-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:74:9-77:39
+234            android:name="com.mesibo.calls.api.MesiboCallsReceiver"
+234-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:75:13-68
+235            android:enabled="true"
+235-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:76:13-35
+236            android:exported="true" />
+236-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:77:13-36
+237
+238        <activity
+238-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:79:9-83:63
+239            android:name="com.mesibo.calls.api.MesiboCallActivity"
+239-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:80:13-67
+240            android:configChanges="orientation|smallestScreenSize|screenSize|screenLayout"
+240-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:81:13-91
+241            android:screenOrientation="fullUser"
+241-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:82:13-49
+242            android:windowSoftInputMode="stateAlwaysHidden" />
+242-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:83:13-60
+243        <activity
+243-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:84:9-91:63
+244            android:name="com.mesibo.calls.api.ui.MesiboDefaultCallActivity"
+244-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:85:13-77
+245            android:configChanges="orientation|keyboardHidden"
+245-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:86:13-63
+246            android:theme="@style/Theme.MesiboCallActivityLight"
+246-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:87:13-65
+247            android:windowActionBar="false"
+247-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:88:13-44
+248            android:windowFullscreen="true"
+248-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:89:13-44
+249            android:windowNoTitle="true"
+249-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:90:13-41
+250            android:windowSoftInputMode="stateAlwaysHidden" />
+250-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:91:13-60
+251        <activity
+251-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:92:9-100:63
+252            android:name="com.mesibo.calls.api.ui.MesiboDefaultGroupCallActivity"
+252-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:93:13-82
+253            android:configChanges="orientation|keyboardHidden"
+253-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:94:13-63
+254            android:screenOrientation="portrait"
+254-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:95:13-49
+255            android:theme="@style/Theme.MesiboCallActivityLight"
+255-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:96:13-65
+256            android:windowActionBar="false"
+256-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:97:13-44
+257            android:windowFullscreen="true"
+257-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:98:13-44
+258            android:windowNoTitle="true"
+258-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:99:13-41
+259            android:windowSoftInputMode="stateAlwaysHidden" />
+259-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:100:13-60
+260        <activity
+260-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:101:9-110:20
+261            android:name="com.mesibo.calls.api.ui.MesiboJoinRoomActivity"
+261-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:102:13-74
+262            android:label="@string/app_name"
+262-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:103:13-45
+263            android:screenOrientation="portrait"
+263-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:104:13-49
+264            android:theme="@style/Theme.MesiboCallActivityLight"
+264-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:105:13-65
+265            android:windowActionBar="false"
+265-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:106:13-44
+266            android:windowFullscreen="true"
+266-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:107:13-44
+267            android:windowNoTitle="true"
+267-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:108:13-41
+268            android:windowSoftInputMode="stateAlwaysHidden" >
+268-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:109:13-60
+269        </activity>
+270
+271        <service
+271-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:112:9-120:19
+272            android:name="com.mesibo.calls.api.MesiboConnectionService"
+272-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:113:13-72
+273            android:exported="true"
+273-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:114:13-36
+274            android:label="MesiboConnectionService"
+274-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:115:13-52
+275            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+275-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:116:13-84
+276            <intent-filter>
+276-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:117:13-119:29
+277                <action android:name="android.telecom.ConnectionService" />
+277-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:118:17-76
+277-->[com.mesibo.api:calls:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\ca30565848d2aaacee27b20372039704\transformed\jetified-calls-2.5.7\AndroidManifest.xml:118:25-73
+278            </intent-filter>
+279        </service>
+280
+281        <activity
+281-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:36:9-39:20
+282            android:name="com.mesibo.api.MesiboPermissionsActivity"
+282-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:37:13-68
+283            android:theme="@style/Theme.AppCompat.Translucent" >
+283-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:38:13-63
+284        </activity>
+285
+286        <service
+286-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:41:9-45:19
+287            android:name="com.mesibo.api.MesiboService"
+287-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:42:13-56
+288            android:enabled="true"
+288-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:43:13-35
+289            android:exported="false" >
+289-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:44:13-37
+290        </service>
+291        <service
+291-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:46:9-50:72
+292            android:name="com.mesibo.api.MesiboBackgroundJobService"
+292-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:47:13-69
+293            android:enabled="true"
+293-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:48:13-35
+294            android:exported="false"
+294-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:49:13-37
+295            android:permission="android.permission.BIND_JOB_SERVICE" />
+295-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:50:13-69
+296        <!--
+297        <receiver
+298            android:name=".NetworkStateReceiver"
+299            android:enabled="true"
+300            android:exported="false"
+301            >
+302            <intent-filter>
+303                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+304            </intent-filter>
+305        </receiver>
+306        -->
+307        <!-- https://stackoverflow.com/questions/17759041/permission-denial-broadcasting-intent-is-not-exported -->
+308        <receiver
+308-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:66:9-79:20
+309            android:name="com.mesibo.api.GenericReceiver"
+309-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:67:13-58
+310            android:enabled="true"
+310-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:68:13-35
+311            android:exported="true" >
+311-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:69:13-36
+312            <intent-filter>
+312-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:70:13-78:29
+313                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+313-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:71:17-87
+313-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:71:25-84
+314                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+314-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:72:17-90
+314-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:72:25-87
+315                <action android:name="android.intent.action.ACTION_BATTERY_CHANGED" />
+315-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:73:17-87
+315-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:73:25-84
+316                <action android:name="android.intent.action.USER_PRESENT" />
+316-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:74:17-77
+316-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:74:25-74
+317                <action android:name="android.intent.action.SCREEN_ON" />
+317-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:75:17-74
+317-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:75:25-71
+318                <action android:name="android.intent.action.SCREEN_OFF" />
+318-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:76:17-75
+318-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:76:25-72
+319                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+319-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:77:17-80
+319-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:77:25-77
+320            </intent-filter>
+321        </receiver>
+322
+323        <provider
+323-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:81:9-89:20
+324            android:name="com.mesibo.api.MesiboFileProvider"
+324-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:82:13-61
+325            android:authorities="org.mesibo.messenger.mesibofileprovider"
+325-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:83:13-70
+326            android:exported="false"
+326-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:84:13-37
+327            android:grantUriPermissions="true" >
+327-->[com.mesibo.api:mesibo:2.5.7] C:\Users\Dell\.gradle\caches\transforms-3\9576be45bacd9ebb4672081d0efc813e\transformed\jetified-mesibo-2.5.7\AndroidManifest.xml:85:13-47
+328            <meta-data
+328-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:44:13-46:58
+329                android:name="android.support.FILE_PROVIDER_PATHS"
+329-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:45:17-67
+330                android:resource="@xml/provider_paths" />
+330-->[com.mesibo.api:mediapicker:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\ca7c6ecc77e9bb8c451602fac0c678d1\transformed\jetified-mediapicker-1.7.0\AndroidManifest.xml:46:17-55
+331        </provider>
+332
+333        <activity
+333-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Dell\.gradle\caches\transforms-3\a24f2c665a3916dc42a8fc2554841a60\transformed\jetified-places-2.6.0\AndroidManifest.xml:14:9-20:20
+334            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+334-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Dell\.gradle\caches\transforms-3\a24f2c665a3916dc42a8fc2554841a60\transformed\jetified-places-2.6.0\AndroidManifest.xml:15:13-91
+335            android:exported="false"
+335-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Dell\.gradle\caches\transforms-3\a24f2c665a3916dc42a8fc2554841a60\transformed\jetified-places-2.6.0\AndroidManifest.xml:16:13-37
+336            android:label="@string/places_autocomplete_label"
+336-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Dell\.gradle\caches\transforms-3\a24f2c665a3916dc42a8fc2554841a60\transformed\jetified-places-2.6.0\AndroidManifest.xml:17:13-62
+337            android:theme="@style/PlacesAutocompleteOverlay"
+337-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Dell\.gradle\caches\transforms-3\a24f2c665a3916dc42a8fc2554841a60\transformed\jetified-places-2.6.0\AndroidManifest.xml:18:13-61
+338            android:windowSoftInputMode="adjustResize" >
+338-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Dell\.gradle\caches\transforms-3\a24f2c665a3916dc42a8fc2554841a60\transformed\jetified-places-2.6.0\AndroidManifest.xml:19:13-55
+339        </activity>
+340        <activity
+340-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Dell\.gradle\caches\transforms-3\9bbb7b9fc3c069e795cd6234870908fe\transformed\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+341            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+341-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Dell\.gradle\caches\transforms-3\9bbb7b9fc3c069e795cd6234870908fe\transformed\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+342            android:excludeFromRecents="true"
+342-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Dell\.gradle\caches\transforms-3\9bbb7b9fc3c069e795cd6234870908fe\transformed\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+343            android:exported="false"
+343-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Dell\.gradle\caches\transforms-3\9bbb7b9fc3c069e795cd6234870908fe\transformed\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+344            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+344-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Dell\.gradle\caches\transforms-3\9bbb7b9fc3c069e795cd6234870908fe\transformed\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+345        <!--
+346            Service handling Google Sign-In user revocation. For apps that do not integrate with
+347            Google Sign-In, this service will never be started.
+348        -->
+349        <service
+349-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Dell\.gradle\caches\transforms-3\9bbb7b9fc3c069e795cd6234870908fe\transformed\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+350            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+350-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Dell\.gradle\caches\transforms-3\9bbb7b9fc3c069e795cd6234870908fe\transformed\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+351            android:exported="true"
+351-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Dell\.gradle\caches\transforms-3\9bbb7b9fc3c069e795cd6234870908fe\transformed\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+352            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+352-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Dell\.gradle\caches\transforms-3\9bbb7b9fc3c069e795cd6234870908fe\transformed\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+353        <!--
+354             FirebaseMessagingService performs security checks at runtime,
+355             but set to not exported to explicitly avoid allowing another app to call it.
+356        -->
+357        <service
+357-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\1ba386e9ed060b5c337bfb4a60d80155\transformed\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+358            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+358-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\1ba386e9ed060b5c337bfb4a60d80155\transformed\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+359            android:exported="false" >
+359-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\1ba386e9ed060b5c337bfb4a60d80155\transformed\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+360            <intent-filter android:priority="-500" >
+360-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:80:13-82:29
+361                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+361-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:81:17-78
+361-->C:\Users\Dell\Downloads\messenger-app-android-master\messenger-app-android-master\app\src\main\AndroidManifest.xml:81:25-75
+362            </intent-filter>
+363        </service>
+364        <service
+364-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\7c0c9ddcba51fb5cf618cec2e9ff6ef7\transformed\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:27:9-33:19
+365            android:name="com.google.firebase.components.ComponentDiscoveryService"
+365-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\7c0c9ddcba51fb5cf618cec2e9ff6ef7\transformed\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:28:13-84
+366            android:exported="false" >
+366-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\7c0c9ddcba51fb5cf618cec2e9ff6ef7\transformed\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:29:13-37
+367            <meta-data
+367-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\7c0c9ddcba51fb5cf618cec2e9ff6ef7\transformed\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+368                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+368-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\7c0c9ddcba51fb5cf618cec2e9ff6ef7\transformed\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+369                android:value="com.google.firebase.components.ComponentRegistrar" />
+369-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\7c0c9ddcba51fb5cf618cec2e9ff6ef7\transformed\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+370            <meta-data
+370-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:32:13-34:85
+371                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+371-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:33:17-96
+372                android:value="com.google.firebase.components.ComponentRegistrar" />
+372-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:34:17-82
+373        </service>
+374
+375        <receiver
+375-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:37:9-44:20
+376            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+376-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:38:13-78
+377            android:exported="true"
+377-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:39:13-36
+378            android:permission="com.google.android.c2dm.permission.SEND" >
+378-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:40:13-73
+379            <intent-filter>
+379-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:41:13-43:29
+380                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+380-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:17-81
+380-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\Dell\.gradle\caches\transforms-3\12034f3c270fa7bd5c9416eeee165188\transformed\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:25-78
+381            </intent-filter>
+382        </receiver> <!-- Needs to be explicitly declared on P+ -->
+383        <uses-library
+383-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dell\.gradle\caches\transforms-3\11f7d3449744cf3ba23467dae4dd3f27\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+384            android:name="org.apache.http.legacy"
+384-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dell\.gradle\caches\transforms-3\11f7d3449744cf3ba23467dae4dd3f27\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+385            android:required="false" />
+385-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dell\.gradle\caches\transforms-3\11f7d3449744cf3ba23467dae4dd3f27\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+386
+387        <activity
+387-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-3\e0dd27a0c9f67cdb2c82f55c8b2412b0\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+388            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+388-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-3\e0dd27a0c9f67cdb2c82f55c8b2412b0\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+389            android:exported="false"
+389-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-3\e0dd27a0c9f67cdb2c82f55c8b2412b0\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+390            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+390-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-3\e0dd27a0c9f67cdb2c82f55c8b2412b0\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+391
+392        <provider
+392-->[com.google.firebase:firebase-common:17.0.0] C:\Users\Dell\.gradle\caches\transforms-3\fc4c373cd2f04e4fd77548d72ed9f1c2\transformed\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+393            android:name="com.google.firebase.provider.FirebaseInitProvider"
+393-->[com.google.firebase:firebase-common:17.0.0] C:\Users\Dell\.gradle\caches\transforms-3\fc4c373cd2f04e4fd77548d72ed9f1c2\transformed\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+394            android:authorities="org.mesibo.messenger.firebaseinitprovider"
+394-->[com.google.firebase:firebase-common:17.0.0] C:\Users\Dell\.gradle\caches\transforms-3\fc4c373cd2f04e4fd77548d72ed9f1c2\transformed\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+395            android:exported="false"
+395-->[com.google.firebase:firebase-common:17.0.0] C:\Users\Dell\.gradle\caches\transforms-3\fc4c373cd2f04e4fd77548d72ed9f1c2\transformed\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+396            android:initOrder="100" />
+396-->[com.google.firebase:firebase-common:17.0.0] C:\Users\Dell\.gradle\caches\transforms-3\fc4c373cd2f04e4fd77548d72ed9f1c2\transformed\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+397
+398        <receiver
+398-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+399            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+399-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+400            android:enabled="true"
+400-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+401            android:exported="false" >
+401-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+402        </receiver>
+403        <receiver
+403-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+404            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+404-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
+405            android:enabled="true"
+405-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+406            android:exported="true"
+406-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+407            android:permission="android.permission.INSTALL_PACKAGES" >
+407-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+408            <intent-filter>
+408-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+409                <action android:name="com.android.vending.INSTALL_REFERRER" />
+409-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+409-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+410            </intent-filter>
+411        </receiver>
+412
+413        <service
+413-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+414            android:name="com.google.android.gms.measurement.AppMeasurementService"
+414-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+415            android:enabled="true"
+415-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+416            android:exported="false" />
+416-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+417        <service
+417-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+418            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+418-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+419            android:enabled="true"
+419-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+420            android:exported="false"
+420-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+421            android:permission="android.permission.BIND_JOB_SERVICE" />
+421-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Dell\.gradle\caches\transforms-3\5ac5235c98e5936fbbdfd5038aae4bae\transformed\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
+422        <service
+422-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dell\.gradle\caches\transforms-3\1facc1ae08b91baf4880c59d6dafa2f2\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+423            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+423-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dell\.gradle\caches\transforms-3\1facc1ae08b91baf4880c59d6dafa2f2\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+424            android:exported="false" >
+424-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dell\.gradle\caches\transforms-3\1facc1ae08b91baf4880c59d6dafa2f2\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+425            <meta-data
+425-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dell\.gradle\caches\transforms-3\1facc1ae08b91baf4880c59d6dafa2f2\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+426                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+426-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dell\.gradle\caches\transforms-3\1facc1ae08b91baf4880c59d6dafa2f2\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+427                android:value="cct" />
+427-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Dell\.gradle\caches\transforms-3\1facc1ae08b91baf4880c59d6dafa2f2\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+428        </service>
+429        <service
+429-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dell\.gradle\caches\transforms-3\24b1b95d8e4bbc4588ca07c0ed51079c\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+430            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+430-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dell\.gradle\caches\transforms-3\24b1b95d8e4bbc4588ca07c0ed51079c\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+431            android:exported="false"
+431-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dell\.gradle\caches\transforms-3\24b1b95d8e4bbc4588ca07c0ed51079c\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+432            android:permission="android.permission.BIND_JOB_SERVICE" >
+432-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dell\.gradle\caches\transforms-3\24b1b95d8e4bbc4588ca07c0ed51079c\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+433        </service>
+434
+435        <receiver
+435-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dell\.gradle\caches\transforms-3\24b1b95d8e4bbc4588ca07c0ed51079c\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+436            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+436-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dell\.gradle\caches\transforms-3\24b1b95d8e4bbc4588ca07c0ed51079c\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+437            android:exported="false" />
+437-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Dell\.gradle\caches\transforms-3\24b1b95d8e4bbc4588ca07c0ed51079c\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+438
+439        <provider
+439-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-3\af1bfda04016ac0ac8bc27ad3838a5ff\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+440            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+440-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-3\af1bfda04016ac0ac8bc27ad3838a5ff\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+441            android:authorities="org.mesibo.messenger.lifecycle-process"
+441-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-3\af1bfda04016ac0ac8bc27ad3838a5ff\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+442            android:exported="false"
+442-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-3\af1bfda04016ac0ac8bc27ad3838a5ff\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+443            android:multiprocess="true" />
+443-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-3\af1bfda04016ac0ac8bc27ad3838a5ff\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+444    </application>
+445
+446</manifest>
